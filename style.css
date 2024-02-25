@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo {
+    font: 5em;
+    color: #ffffff;
+    pointer-events: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 600;
+}
+
+.navigation a:hover {
+    background: #060020;
+    color: #f9f9f9;
+
+
+}
+
+.text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-align: center;
+
+}
+
+#text2 {
+    position: absolute;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-top: 120px;
+    text-align: center;
+}
+
+#flaga {
+    position: absolute;
+    max-width: 250px;
+    max-height: 140px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: #fff;
+    margin-top: 320px;
+    text-align: center;
+
+}
+
+.text img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background: #060020;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 4em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+#Geografia {
+    margin-left: 660px;
+}
+
+#mapa {
+    max-height: 600px;
+    max-width: 600px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.Figures {
+        position: relative;
+        background: #060020;
+        padding: 100px;
+}
+
+#important {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-left: 485px;
+    margin-bottom: 200px;
+}
+
+#Darnell {
+    position: absolute;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-left: 645px;
+    margin-top: 470px;
+
+}
+#Rich {
+    position: absolute;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-left: 60px;
+    margin-top: 470px;
+
+}
+#Mishone {
+    position: absolute;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    margin-left: 1100px;
+    margin-top: 470px;
+
+}
+
+.Figures img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 130px;
+}
+
+.history {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    pointer-events: none;
+}
+#text5 {
+    font-size: 6em;
+    margin-top: 350px;
+    text-align: center;
+    
+}
+
+#text6 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.historia {
+    position: relative;
+    background: #060020;
+    padding: 100px;
+}
+
+.historia h2 {
+    font-size: 4em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.historia p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.Nature {
+    position: relative;
+    background: #060020;
+    padding: 100px;
+}
