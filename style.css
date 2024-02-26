@@ -8,11 +8,20 @@
 
 }
 
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 body {
     background: #f9f9f9;
     min-height: 100vh;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 
