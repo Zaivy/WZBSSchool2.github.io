@@ -28,10 +28,7 @@ header {
     
 }
 
-#tlo {
-    width: 100%;
-    height: auto;
-}
+
 .logo {
     font: 5em;
     color: #ffffff;
@@ -122,11 +119,6 @@ header {
     color: #fff;
     font-weight: 300;
 }
-
-#Geografia {
-    margin-left: 660px;
-}
-
 #mapa {
     max-height: 600px;
     max-width: 600px;
@@ -139,14 +131,6 @@ header {
         padding: 100px;
 }
 
-#important {
-    position: absolute;
-    font-size: 5em;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    margin-left: 485px;
-    margin-bottom: 200px;
-}
 
 #Darnell {
     position: absolute;
