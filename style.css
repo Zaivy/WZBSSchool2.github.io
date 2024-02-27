@@ -28,6 +28,10 @@ header {
     
 }
 
+.tlo {
+    width: 100%;
+    height: auto;
+}
 .logo {
     font: 5em;
     color: #ffffff;
