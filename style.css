@@ -28,7 +28,7 @@ header {
     
 }
 
-.tlo {
+#tlo {
     width: 100%;
     height: auto;
 }
@@ -57,7 +57,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     height: 100vh;
 
 }
