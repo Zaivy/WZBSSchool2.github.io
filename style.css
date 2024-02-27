@@ -93,8 +93,9 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 1920px;
-    height: 1080px;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
     pointer-events: none;
 }
 
@@ -125,8 +126,7 @@ header {
 #mapa {
     max-height: 600px;
     max-width: 600px;
-    margin-left: 550px;
-    margin-top: 50px;
+    text-align: center;
 }
 
 .Figures {
