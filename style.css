@@ -14,6 +14,11 @@ body {
     overflow-x: hidden;
 }
 
+#tlo {
+    max-width: 100%;
+    max-height: auto;
+}
+
 
 header {
     position: absolute;
@@ -66,6 +71,12 @@ header {
     text-align: center;
 
 }
+
+#tlo {
+    max-width: 100%;
+    max-height: auto;
+}
+
 
 #text2 {
     position: absolute;
