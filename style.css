@@ -14,11 +14,6 @@ body {
     overflow-x: hidden;
 }
 
-#tlo {
-    max-width: 100%;
-    max-height: auto;
-}
-
 
 header {
     position: absolute;
@@ -63,20 +58,16 @@ header {
     height: 100vh;
 
 }
+
+
 #text {
-    position: absolute;
-    font-size: 5em;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    text-align: center;
+  position: absolute;
+  font-size: 5em;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  text-align: center;
 
 }
-
-#tlo {
-    max-width: 100%;
-    max-height: auto;
-}
-
 
 #text2 {
     position: absolute;
@@ -133,7 +124,8 @@ header {
 #mapa {
     max-height: 600px;
     max-width: 600px;
-    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
 }
 
 .Figures {
@@ -142,6 +134,7 @@ header {
         padding: 100px;
 }
 
+/* Glowna strona */
 
 #Darnell {
     position: absolute;
@@ -170,6 +163,30 @@ header {
     margin-top: 470px;
 
 }
+
+#RichP {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+
+#MishoneP {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+}
+
+#DarnelP {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  margin-left:  250px;
+}
+
+/* Glowna strona koniec*/
+
 
 .Figures img {
     max-width: 300px;
@@ -200,6 +217,7 @@ header {
     text-align: center;
 }
 
+/* main strona no i pro */
 .historia {
     position: relative;
     background: #060020;
@@ -207,17 +225,95 @@ header {
 }
 
 .historia h2 {
-    font-size: 4em;
-    color: #ffffff;
-    margin-bottom: 10px;
-    text-align: center;
-    
+  font-size: 4em;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+
 }
 
 .historia p {
-    font-size: 1em;
-    color: #fff;
-    font-weight: 300;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* strona "historia" */
+
+.historiaa {
+  position: relative;
+  background: #24271D;
+  padding: 100px;
+}
+
+.historiaa h2 {
+font-size: 4em;
+color: #ffffff;
+margin-bottom: 10px;
+text-align: center;
+
+}
+
+.historiaa p {
+font-size: 1em;
+color: #fff;
+font-weight: 300;
+}
+
+/* strona "for tourists" */
+
+.toruists {
+  position: relative;
+  background: #485354;
+  padding: 100px;
+}
+
+.toruists h2 {
+font-size: 4em;
+color: #ffffff;
+margin-bottom: 10px;
+text-align: center;
+
+}
+
+.toruists p {
+font-size: 1em;
+color: #fff;
+font-weight: 300;
+}
+
+/* strona "nature" */
+
+.naturaa {
+  position: relative;
+  background: #327031;
+  padding: 100px;
+}
+
+.naturaa h2 {
+font-size: 4em;
+color: #ffffff;
+margin-bottom: 10px;
+text-align: center;
+
+}
+
+.naturaa p {
+font-size: 1em;
+color: #fff;
+font-weight: 300;
+}
+
+/* to cos na dole co mowi nasze imie thumbsup" */
+
+.bottoml {
+  position: relative;
+  background: #000000;
+  padding: 100px;
+
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
 }
 
 .Nature {
